@@ -20,7 +20,6 @@ h1 {
 }
 
 .left-container {
-
   background-image: url("side-img.jpg");
   background-repeat: no-repeat;
   background-size: auto;
@@ -117,6 +116,7 @@ h1 {
 .form-row input[type='password']:focus {
   outline: none !important;
   border: 1px solid blue;
+  box-shadow: 2px 4px 10px gray;
 }
 
 .send-info {
